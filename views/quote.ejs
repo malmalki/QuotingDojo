@@ -8,13 +8,13 @@
 </head>
 <body>
     <h1>All quotes</h1>
-    <% for (var x in arr) { %>
+    <% for (var x of quote) { %>
             
-        Name: <%= arr[x].name %>
+        Name: <%= x.name %>
         <br>
-        Quote: <%= arr[x].quote %> 
+        Quote: <%= x.quote %> 
         <br>
-        Created At: <%= arr[x].createdAt %> 
+        Created At: <%= x.createdAt %> 
         <br>
 
         <hr>
